@@ -1,0 +1,4 @@
+
+question,sql
+Find policies with no driver,SELECT policy_id FROM policy_period WHERE policy_id NOT IN (SELECT policy_id FROM driver);
+Find claims above 10000,SELECT * FROM claim WHERE claim_amount > 10000;
