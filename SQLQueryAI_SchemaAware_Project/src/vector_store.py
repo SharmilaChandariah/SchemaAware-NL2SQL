@@ -7,7 +7,10 @@ class VectorStore:
     def __init__(self, dimension=384):
         self.index = faiss.IndexFlatL2(dimension)
         self.documents = []
-
+    def add_documents(self, embedding, document):
+        embedding = np.array([embedding]).astype('float32')
+        self.index.add(embedding)
+        self.documents.append(document)
     def add_document(self, embedding, document):
         embedding = np.array([embedding]).astype('float32')
         self.index.add(embedding)
