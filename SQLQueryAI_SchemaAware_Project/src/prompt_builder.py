@@ -6,7 +6,7 @@ def build_prompt(user_query, schema, examples):
 
     Rules:
     - Use only provided schema.
-    - Do not hallucinate columns.
+    - Do not hallucinate columns. Use only provided schemas
     - Generate optimized SQL.
     - Return SQL only.
 
