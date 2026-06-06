@@ -1,7 +1,0 @@
-
-[
-    {
-        "scenario": "Find claims above 10000",
-        "expected_sql": "SELECT * FROM claim WHERE claim_amount > 10000;"
-    }
-]
