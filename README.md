@@ -5,7 +5,6 @@
 [![IEEE Keynote](https://img.shields.io/badge/IEEE-Region%204%20Nexus%20Keynote-00629B?logo=ieee)](https://www.msoe.edu/about-msoe/news/details/ieee-students-converge-on-campus-for-2024-nexus/)
 
 > A GenAI-based Text-to-SQL system that generates accurate SQL queries from natural language using **only the database schema** — no hardcoded table knowledge, no sample data, no schema-specific fine-tuning. Designed for enterprise-scale, cross-domain deployment.
-
 ---
 
 ## Why This Is Different
@@ -19,7 +18,6 @@ Most NL-to-SQL systems fail in real enterprise environments because they are:
 This system takes a fundamentally different approach: **the schema is the only input**. The model reads any relational database schema at runtime and generates SQL from first principles, with no prior knowledge of the target database. The same model works across any industry, any schema, without modification.
 
 This architecture was deployed as the **first enterprise-wide GenAI solution** at a major client organization, enabling non-technical users across multiple business units to query data in plain English — eliminating SQL as a data access bottleneck.
-
 ---
 
 ## Key Features
