@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this work in your research or build upon this architecture, please cite it as below."
-authors:
+authors: 
   - family-names: Chandariah
     given-names: Sharmila Devi
 title: "SchemaAware-NL2SQL: Cross-Domain Natural Language to SQL Using Schema-Only Architecture"
@@ -17,7 +17,7 @@ keywords:
   - large-language-models
   - sql-generation
   - cross-domain
-abstract: >
+abstract: 
   A GenAI-based Text-to-SQL system that generates accurate SQL queries
   from natural language using only the database schema — no hardcoded
   table knowledge, no sample queries, and no schema-specific fine-tuning
