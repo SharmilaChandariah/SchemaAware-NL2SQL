@@ -85,7 +85,7 @@ class SchemaAwareNL2SQL:
             );
         '''
         model = SchemaAwareNL2SQL(schema=ddl)
-        sql = model.generate("Total revenue by region for Q1 2024")
+        sql = model.generate("Total revenue by region for Q2 2024")
     """
 
     def __init__(
